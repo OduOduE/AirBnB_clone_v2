@@ -28,7 +28,7 @@ class FileStorage:
             return (dic)
         else:
             return self.__objects
-       """ return FileStorage.__objects """
+      #  return FileStorage.__objects
 
     def new(self, obj):
         """Adds new object to storage dictionary"""
